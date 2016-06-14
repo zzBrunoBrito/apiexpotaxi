@@ -1,5 +1,10 @@
 package com.app.apiexpotaxi;
 
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
@@ -10,8 +15,41 @@ package com.app.apiexpotaxi;
  *
  * @author bruno
  */
+
+@Entity
 public class Index {
-    public static void main(String[] args) {
-        System.out.println("apeoapeoa");
+    
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private Integer id;
+    
+    @Column(nullable = false)
+    private String nome;
+
+    public Index(Integer id, String nome) {
+        this.id = id;
+        this.nome = nome;
     }
+
+    public Index() {
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public void setId(Integer id) {
+        this.id = id;
+    }
+
+    public String getNome() {
+        return nome;
+    }
+
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    
+    
+    
 }
