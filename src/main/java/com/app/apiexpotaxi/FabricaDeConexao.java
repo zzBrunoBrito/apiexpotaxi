@@ -1,4 +1,4 @@
-package com.fjn.dao.util;
+package com.app.apiexpotaxi;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
