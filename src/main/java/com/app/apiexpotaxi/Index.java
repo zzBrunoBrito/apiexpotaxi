@@ -1,6 +1,6 @@
 package com.app.apiexpotaxi;
 
-import java.io.Serializable;
+
 import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
@@ -19,7 +19,7 @@ import javax.persistence.Id;
  */
 
 @Entity(name = "index")
-public class Index implements Serializable{
+public class Index{
     
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
@@ -28,8 +28,7 @@ public class Index implements Serializable{
     @Column(nullable = false)
     private String nome;
 
-    public Index(Integer id, String nome) {
-        this.id = id;
+    public Index(String nome) {
         this.nome = nome;
     }
 
