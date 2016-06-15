@@ -4,10 +4,10 @@
     <provider>org.hibernate.ejb.HibernatePersistence</provider>
     <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
-      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://ec2-50-19-240-113.compute-1.amazonaws.com:5432/degk1bjckg1qks?sslmode=require"/>
-      <property name="javax.persistence.jdbc.user" value="pryckufmgaccpc"/>
+      <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://ec2-54-235-132-192.compute-1.amazonaws.com:5432/d69nugk1f57oi9?sslmode=require"/>
+      <property name="javax.persistence.jdbc.user" value="hfrcsgpbfreydy"/>
       <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
-      <property name="javax.persistence.jdbc.password" value="5CskfwRZfowDXSa7NdWyUy1gKx"/>
+      <property name="javax.persistence.jdbc.password" value="gvG-j6liRnnT4AK2zqyWfp7zTn"/>
       <property name="hibernate.cache.provider_class" value="org.hibernate.cache.NoCacheProvider"/>
       <property name="javax.persistence.schema-generation.database.action" value="create"/>
     </properties>
