@@ -16,11 +16,12 @@
     
     
     <dependencies>
-        <!-- <<dependency>
+        <dependency>
             <groupId>br.com.caelum</groupId>
             <artifactId>vraptor</artifactId>
             <version>4.1.4</version>
-        </dependency> -->
+            <scope>provided</scope>
+        </dependency>
         <dependency>
             <groupId>javax</groupId>
             <artifactId>javaee-web-api</artifactId>
