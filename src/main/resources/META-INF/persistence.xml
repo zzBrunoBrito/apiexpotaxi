@@ -3,7 +3,7 @@
   <persistence-unit name="com.app_apiexpotaxi_war_1.0-SNAPSHOTPU" transaction-type="RESOURCE_LOCAL">
     <provider>org.hibernate.ejb.HibernatePersistence</provider>
     <class>com.app.apiexpotaxi.Index</class>
-    <exclude-unlisted-classes>true</exclude-unlisted-classes>
+    <exclude-unlisted-classes>false</exclude-unlisted-classes>
     <properties>
       <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://ec2-54-235-132-192.compute-1.amazonaws.com:5432/d69nugk1f57oi9?sslmode=require"/>
       <property name="javax.persistence.jdbc.user" value="hfrcsgpbfreydy"/>
